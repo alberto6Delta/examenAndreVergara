@@ -1,0 +1,32 @@
+<div class="contenedor">
+
+  <div class="header">
+
+    <p class="logo">LOGO</p>
+
+    <p class="anuncio">
+      !Hola¡ bienvenidos a XXXXX <br>
+      Para ingresar es necesario iniciar sesión
+    </p>
+  </div>
+
+  <div class="formulario">
+    <form (submit)="login()" [formGroup]="loginForm" autocomplete="off" >
+      <div class="correo">
+        <label for="email">Usuario o correo electronico <span>*</span></label>
+        <input type="email" name="email" id="email" formControlName="email">
+      </div>
+      <div class="password">
+        <label for="password">Contraseña <span>*</span></label>
+        <div class="password-icono">
+          <i class="far fa-eye icono-input" id="eye" (click)="ver()"></i>
+          <input type="password" name="password" id="password" formControlName="password">
+        </div>
+      </div>
+
+      <button type="submit">Iniciar Sesión</button>
+    </form>
+  </div>
+
+  <p>Olvide mi contraseña <a href="#">!Recuperala¡</a></p>
+</div>

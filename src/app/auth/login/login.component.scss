@@ -1,0 +1,86 @@
+.contenedor {
+  padding: .5rem;
+}
+
+.header {
+  .logo {
+    border: 1px solid black;
+    width: 15%;
+    text-align: left;
+    display: block;
+    margin: 2rem auto;
+    background-color: #E7E6E5;
+    padding: .3rem;
+  }
+}
+
+.anuncio {
+  background-color: #ffeeb9;
+  width: 97%;
+  margin: 0 auto;
+  font-weight: bold;
+  text-align: center;
+  padding: .3rem;
+  padding-top: .5!important;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.formulario {
+
+  margin-top: 4rem;
+
+  .correo, .password {
+    display: block;
+    label {
+      display: block;
+      width: 100%;
+
+      span {
+        color: red;
+      }
+    }
+    input {
+      width: 98%;
+      border: none;
+      border-bottom: 1px solid blue;
+      margin-bottom: 1rem;
+      height: 2rem;
+    }
+  }
+
+  .password-icono {
+
+    .icono-input {
+      position: absolute;
+      right: 0;
+      font-size: 25px;
+      margin-right: 1rem;
+      margin-top: .5rem;
+      color: black;
+      cursor: pointer;
+    }
+  }
+
+  button {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color:#dea900 ;
+    padding: .8rem;
+    width: 98%;
+    margin: 2rem auto;
+    display: block;
+  }
+
+}
+
+p {
+  margin-top: 2rem;
+  text-align: left;
+  margin-left: .7rem;
+}
+
+.color-eye {
+  color: blue!important;
+}

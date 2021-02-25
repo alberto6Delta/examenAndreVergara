@@ -1,0 +1,27 @@
+.tareas, .tracking, .graficos {
+
+  width: 55%;
+  height: 10vh;
+  background-color: #dea900;
+  margin: 1rem auto;
+  border-radius: 20px;
+  margin-bottom: 2.5rem;
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+
+  .icon {
+    font-size: 60px;
+    color: black;
+  }
+
+  a {
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 1rem;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}

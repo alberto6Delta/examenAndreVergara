@@ -1,0 +1,16 @@
+<div class="menu" id="menu">
+  <div class="header">
+    <div class="user">
+      <i class="fas fa-user"></i>
+    </div>
+    <p class="nombre">Nombre Perfil</p>
+    <p class="cerrar" (click)="cerrar()">X</p>
+  </div>
+
+  <nav>
+    <div class="opciones" *ngFor="let opcion of menu">
+      <i class="{{ opcion.icono }} icon"></i>
+      <a routerLink="/dashboard">{{ opcion.opcion }}</a>
+    </div>
+  </nav>
+</div>
